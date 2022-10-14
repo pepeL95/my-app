@@ -8,9 +8,11 @@
 
     &>button {
         color: white;
+        height: 8vmin, 
     }
 
-    &>.about-btn {
-        background: rgba(189, 191, 194, 0.5);
+    &>button:hover {
+        background: rgba(189, 191, 194, 0.5),
     }
+
 }
