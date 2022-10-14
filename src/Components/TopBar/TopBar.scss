@@ -1,0 +1,16 @@
+.top-bar-container {
+    width: 100vw;
+    height: 8vmin;
+    background: #272c34;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &>button {
+        color: white;
+    }
+
+    &>.about-btn {
+        background: rgba(189, 191, 194, 0.5);
+    }
+}
