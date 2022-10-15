@@ -15,10 +15,6 @@ const Resume = () => {
 
   return (
     <div className="resume-container">
-      <div className="download-resume-container">
-        <button>Download Resume as PDF</button>
-      </div>
-
       <div className="buckets education-container">
         <div className="header">
           <h1>Education</h1>
