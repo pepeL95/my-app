@@ -1,65 +1,68 @@
 import './TopBar.scss'
-import { useState } from 'react'
 import { Button } from '@mui/material'
 import { menus } from '../../utils/enum.js'
+import CodeIcon from '@mui/icons-material/Code'
+import WorkIcon from '@mui/icons-material/Work'
+import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar'
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark'
+
 const TopBar = ({ window, setWindow }) => {
-  const [menuActive, setMenuActive] = useState(menus.about)
   return (
     <div className="top-bar-container">
-      <Button
-        className="portfolio-btn"
-        sx={{
-          background:
-            menuActive === menus.portfolio
-              ? 'rgba(189, 191, 194, 0.5)'
-              : 'none',
-        }}
-        onClick={() => {
-          setMenuActive(menus.portfolio)
-          setWindow(menus.portfolio)
-        }}
-      >
-        Portfolio
-      </Button>
-      <Button
-        className="about-btn"
-        sx={{
-          background:
-            menuActive === menus.about ? 'rgba(189, 191, 194, 0.5)' : 'none',
-        }}
-        onClick={() => {
-          setMenuActive(menus.about)
-          setWindow(menus.about)
-        }}
-      >
-        About
-      </Button>
-      <Button
-        className="resume-btn"
-        sx={{
-          background:
-            menuActive === menus.resume ? 'rgba(189, 191, 194, 0.5)' : 'none',
-        }}
-        onClick={() => {
-          setMenuActive(menus.resume)
-          setWindow(menus.resume)
-        }}
-      >
-        Resume
-      </Button>
-      <Button
-        className="contact-btn"
-        sx={{
-          background:
-            menuActive === menus.contact ? 'rgba(189, 191, 194, 0.5)' : 'none',
-        }}
-        onClick={() => {
-          setMenuActive(menus.contact)
-          setWindow(menus.contact)
-        }}
-      >
-        Contact
-      </Button>
+      <div className="left-halve" />
+      <div className="right-halve">
+        <Button
+          className="portfolio-btn"
+          sx={{
+            background:
+              window === menus.portfolio ? 'rgba(189, 191, 194, 0.5)' : 'none',
+          }}
+          onClick={() => setWindow(menus.portfolio)}
+        >
+          Portfolio
+          <span style={{ width: '10px' }} />
+          <CodeIcon fontSize="small" />
+        </Button>
+
+        <Button
+          className="about-btn"
+          sx={{
+            background:
+              window === menus.about ? 'rgba(189, 191, 194, 0.5)' : 'none',
+          }}
+          onClick={() => setWindow(menus.about)}
+        >
+          About
+          <span style={{ width: '10px' }} />
+          <QuestionMarkIcon fontSize="small" />
+        </Button>
+
+        <Button
+          className="resume-btn"
+          sx={{
+            background:
+              window === menus.resume ? 'rgba(189, 191, 194, 0.5)' : 'none',
+          }}
+          onClick={() => setWindow(menus.resume)}
+        >
+          Resume
+          <span style={{ width: '10px' }} />
+          <WorkIcon fontSize="small" />
+        </Button>
+
+        <Button
+          className="contact-btn"
+          sx={{
+            background:
+              window === menus.contact ? 'rgba(189, 191, 194, 0.5)' : 'none',
+          }}
+          onClick={() => setWindow(menus.contact)}
+        >
+          Contact
+          <span style={{ width: '10px' }} />
+          <PermContactCalendarIcon fontSize="small" />
+        </Button>
+      </div>
     </div>
   )
 }

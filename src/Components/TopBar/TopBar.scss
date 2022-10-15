@@ -1,18 +1,26 @@
 .top-bar-container {
-    width: 100vw;
-    height: 8vmin;
-    background: #272c34;
+  width: 100vw;
+  height: 8vmin;
+  // background: #272c34;
+  background: #00526c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  & > .right-halve {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    // background: black;
+    width: 60%;
 
-    &>button {
-        color: white;
-        height: 8vmin, 
+    & > button {
+      color: white;
+      height: 7vmin;
+      margin: 0px, 5px, 0px, 5px;
     }
 
-    &>button:hover {
-        background: rgba(189, 191, 194, 0.5),
+    & > button:hover {
+      background: rgba(189, 191, 194, 0.5);
     }
-
+  }
 }

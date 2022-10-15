@@ -17,7 +17,8 @@ const Description = () => {
       <div className="social-media-btns">
         <IconButton
           sx={{
-            width: '12vmax',
+            width: '13vmax',
+            minWidth: '120px',
             height: '40px',
             borderRadius: '20px',
             border: '2px solid #272c34',
@@ -26,12 +27,13 @@ const Description = () => {
             fontSize: '2vmax',
           }}
         >
-          <GitHubIcon sx={{ mr: '5px' }} />
+          <GitHubIcon sx={{ mr: '5px', fill: 'purple' }} />
           GitHub
         </IconButton>
         <IconButton
           sx={{
-            width: '12vmax',
+            width: '13vmax',
+            minWidth: '120px',
             height: '40px',
             borderRadius: '20px',
             border: '2px solid #272c34',
@@ -40,7 +42,7 @@ const Description = () => {
             fontSize: '2vmax',
           }}
         >
-          <LinkedInIcon sx={{ mr: '5px' }} />
+          <LinkedInIcon sx={{ mr: '5px', fill: '#1D4ED8' }} />
           LinkedIn
         </IconButton>
       </div>
