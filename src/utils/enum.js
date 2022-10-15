@@ -4,3 +4,4 @@ module.exports.menus = {
   resume: 2,
   contact: 3,
 }
+

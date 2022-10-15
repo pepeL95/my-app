@@ -1,5 +1,5 @@
 .EducationObject-container {
-    padding: 0px 0px 10px 0px;
+    // padding: 0px 0px 10px 0px;
     &>.institution-container,
      .field-container,
      .gpa-container {
@@ -14,4 +14,12 @@
     &>.field-container {
 
     }
+
+    @media only screen and (max-width: 600px) {
+        &>.institution-container,
+     .field-container,
+     .gpa-container {
+        padding: 0 5px 0 5px;
+     }
+      }
 }

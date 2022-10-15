@@ -2,8 +2,8 @@ import './TopBar.scss'
 import { Button } from '@mui/material'
 import { menus } from '../../utils/enum.js'
 import CodeIcon from '@mui/icons-material/Code'
-import WorkIcon from '@mui/icons-material/Work'
-import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar'
+import TaskOutlinedIcon from '@mui/icons-material/TaskOutlined'
+import SendSharpIcon from '@mui/icons-material/SendSharp'
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark'
 
 const TopBar = ({ window, setWindow }) => {
@@ -19,7 +19,7 @@ const TopBar = ({ window, setWindow }) => {
           }}
           onClick={() => setWindow(menus.portfolio)}
         >
-          Portfolio
+          Projcects
           <span style={{ width: '10px' }} />
           <CodeIcon fontSize="small" />
         </Button>
@@ -34,7 +34,7 @@ const TopBar = ({ window, setWindow }) => {
         >
           About
           <span style={{ width: '10px' }} />
-          <QuestionMarkIcon fontSize="small" />
+          {/* <QuestionMarkIcon fontSize="small" /> */}
         </Button>
 
         <Button
@@ -47,7 +47,7 @@ const TopBar = ({ window, setWindow }) => {
         >
           Resume
           <span style={{ width: '10px' }} />
-          <WorkIcon fontSize="small" />
+          {/* <TaskOutlinedIcon fontSize="small" /> */}
         </Button>
 
         <Button
@@ -60,7 +60,7 @@ const TopBar = ({ window, setWindow }) => {
         >
           Contact
           <span style={{ width: '10px' }} />
-          <PermContactCalendarIcon fontSize="small" />
+          {/* <SendSharpIcon fontSize="small" /> */}
         </Button>
       </div>
     </div>

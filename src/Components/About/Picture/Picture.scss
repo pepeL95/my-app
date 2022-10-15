@@ -1,5 +1,20 @@
 .picture-container {
-    width: 60vw;
+    width: 40vw;
     height: 100%;
     background: lightgray;
+
+
+    @media only screen and (max-width: 600px) {
+        width: 100vw;
+        height: 35vh;
+    }
 }
+
+// // @media only screen and (max-width: 600) {
+// //     picture-container {
+// //         width: 0vw;
+// //         height: 0%;
+// //         background: rgb(103, 42, 42);
+    
+// //     }
+// }

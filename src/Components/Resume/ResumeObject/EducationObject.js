@@ -18,6 +18,7 @@ const EducationObject = ({institutionName, location, field, date, gpa}) => {
         </div>
     </div>
   )
+
 }
 
 export default EducationObject
