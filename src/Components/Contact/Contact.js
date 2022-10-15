@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="contact-container">
       <div className="email-container">
         <h3>You Can Reach Me Through My Email</h3>
-        <a href="mailto:jose.lopezgarrido@95@gmail.com" className=" email">
+        <a href="mailto:jose.lopezgarrido95@gmail.com" className=" email">
           jose.lopezgarrido95@gmail.com 
           <SendSharpIcon sx={{ fill: '#FDE68A' }}/>
         </a>
