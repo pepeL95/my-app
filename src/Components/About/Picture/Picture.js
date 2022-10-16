@@ -25,7 +25,7 @@ function Word({ children, ...props }) {
     return () => (document.body.style.cursor = 'auto')
   }, [hovered])
   // Tie component to the render-loop
-  useFrame(({ camera, clock }) => {
+  useFrame(({ camera }) => {
     // Make text face the camera
     ref.current.quaternion.copy(camera.quaternion)
     // Animate font color
@@ -79,7 +79,7 @@ const Picture = () => {
       
         <fog attach="fog" args={['#202025', 0, 80]} />
         <Cloud count={8} radius={20} />
-        <OrbitControls autoRotate={true} autoRotateSpeed={1.5} />
+        <OrbitControls autoRotate={true} autoRotateSpeed={window.screen.width <= 600 ? 1.0 : 0.4} />
       </Canvas>
     </div>
   )

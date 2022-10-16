@@ -19,12 +19,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 400px;
+            padding: 0 20px 0 20px;
+            min-width: 400px;
             height: 60px;
             border: 1px solid lightgray;
 
             @media only screen and (max-width: 600px) {
-                width: 300px;
+                min-width: 300px;
         }
         }
     }
@@ -44,12 +45,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 400px;
+            padding: 0 20px 0 20px;
+            min-width: 400px;
             height: 60px;
             border: 1px solid lightgray;
 
             @media only screen and (max-width: 600px) {
-                width: 300px;
+                min-width: 300px;
         }
         }
     }
