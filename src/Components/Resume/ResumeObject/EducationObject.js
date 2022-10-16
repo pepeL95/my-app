@@ -1,6 +1,9 @@
 import './EducationObject.scss'
+import {useState} from 'react'
 
 const EducationObject = ({institutionName, location, field, date, gpa}) => {
+  const [showGpa, setShowGpa] = useState(false)
+
   return (
     <div className='EducationObject-container'>
         <div className='institution-container'>
@@ -14,7 +17,8 @@ const EducationObject = ({institutionName, location, field, date, gpa}) => {
         </div>
 
         <div className='gpa-container'>
-          <p>GPA: {gpa}</p>
+          <p>GPA: {showGpa && gpa}</p>
+          <button onClick={() => setShowGpa(!showGpa)}>{showGpa ? 'Hide' : 'Show'}</button>
         </div>
     </div>
   )

@@ -75,7 +75,7 @@ const Picture = () => {
   
   return (
     <div className="picture-container">
-      <Canvas dpr={[1, 2]} camera={{position: [0, 10, 35], fov: 90 }}>
+      <Canvas dpr={[1, 2]} camera={window.screen.width > 600 ? {position: [0, 10, 35], fov: 90 } : {position: [0, 10, 35], fov: 80 }}>
       
         <fog attach="fog" args={['#202025', 0, 80]} />
         <Cloud count={8} radius={20} />
