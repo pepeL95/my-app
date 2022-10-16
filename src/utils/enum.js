@@ -5,3 +5,4 @@ module.exports.menus = {
   contact: 3,
 }
 
+module.exports.my_words = ['React', 'Pi', 'Python', '3D', 'JavaScript', 'C++', 'Web Dev', 'Hello World', 'Software', 'RAM', 'Engineering', 'Success', 'Math', 'Front-End']
