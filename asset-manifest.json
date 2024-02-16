@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/personal-dev-website/static/css/main.66a207fc.css",
-    "main.js": "/personal-dev-website/static/js/main.53a3def8.js",
+    "main.css": "/personal-dev-website/static/css/main.ba87d380.css",
+    "main.js": "/personal-dev-website/static/js/main.b1a86e74.js",
     "static/js/787.28cb0dcd.chunk.js": "/personal-dev-website/static/js/787.28cb0dcd.chunk.js",
+    "static/media/listpal_video.mov": "/personal-dev-website/static/media/listpal_video.fe807068264461e50e42.mov",
+    "static/media/main_bg.jpg": "/personal-dev-website/static/media/main_bg.9c39aeef0c0e461c418b.jpg",
+    "static/media/qh4.jpg": "/personal-dev-website/static/media/qh4.9a5137ca893adbf2667f.jpg",
+    "static/media/qh3.jpg": "/personal-dev-website/static/media/qh3.b949ad4f8f625a60daed.jpg",
+    "static/media/listpal_login.jpg": "/personal-dev-website/static/media/listpal_login.6efe77a09c8a2d20ffab.jpg",
+    "static/media/listpal_home.jpg": "/personal-dev-website/static/media/listpal_home.5dea3b068a491c228051.jpg",
+    "static/media/qh1.jpg": "/personal-dev-website/static/media/qh1.afe9480c833caf034c27.jpg",
+    "static/media/hamiltonian3.jpg": "/personal-dev-website/static/media/hamiltonian3.677ed9a235448d9fa867.jpg",
+    "static/media/hamiltonian2.jpg": "/personal-dev-website/static/media/hamiltonian2.8756db29bd590ed97893.jpg",
+    "static/media/hamiltonian1.jpg": "/personal-dev-website/static/media/hamiltonian1.89321ad8b663bc716b47.jpg",
+    "static/media/JoseLopezResume2023.pdf": "/personal-dev-website/static/media/JoseLopezResume2023.6162e6f37cac7d953257.pdf",
+    "static/media/linkein_profile.jpeg": "/personal-dev-website/static/media/linkein_profile.a3d4e0bcdbf5be8171af.jpeg",
     "index.html": "/personal-dev-website/index.html",
-    "main.66a207fc.css.map": "/personal-dev-website/static/css/main.66a207fc.css.map",
-    "main.53a3def8.js.map": "/personal-dev-website/static/js/main.53a3def8.js.map",
+    "main.ba87d380.css.map": "/personal-dev-website/static/css/main.ba87d380.css.map",
+    "main.b1a86e74.js.map": "/personal-dev-website/static/js/main.b1a86e74.js.map",
     "787.28cb0dcd.chunk.js.map": "/personal-dev-website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66a207fc.css",
-    "static/js/main.53a3def8.js"
+    "static/css/main.ba87d380.css",
+    "static/js/main.b1a86e74.js"
   ]
 }
