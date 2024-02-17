@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-dev-website/static/css/main.47116ed6.css",
-    "main.js": "/personal-dev-website/static/js/main.26eab1d3.js",
+    "main.css": "/personal-dev-website/static/css/main.61cf1b94.css",
+    "main.js": "/personal-dev-website/static/js/main.6e7a3372.js",
     "static/js/787.28cb0dcd.chunk.js": "/personal-dev-website/static/js/787.28cb0dcd.chunk.js",
     "static/media/listpal_video.mov": "/personal-dev-website/static/media/listpal_video.fe807068264461e50e42.mov",
     "static/media/main_bg.jpg": "/personal-dev-website/static/media/main_bg.9c39aeef0c0e461c418b.jpg",
@@ -16,12 +16,12 @@
     "static/media/JoseLopezResume2023.pdf": "/personal-dev-website/static/media/JoseLopezResume2023.6162e6f37cac7d953257.pdf",
     "static/media/linkein_profile.jpeg": "/personal-dev-website/static/media/linkein_profile.a3d4e0bcdbf5be8171af.jpeg",
     "index.html": "/personal-dev-website/index.html",
-    "main.47116ed6.css.map": "/personal-dev-website/static/css/main.47116ed6.css.map",
-    "main.26eab1d3.js.map": "/personal-dev-website/static/js/main.26eab1d3.js.map",
+    "main.61cf1b94.css.map": "/personal-dev-website/static/css/main.61cf1b94.css.map",
+    "main.6e7a3372.js.map": "/personal-dev-website/static/js/main.6e7a3372.js.map",
     "787.28cb0dcd.chunk.js.map": "/personal-dev-website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47116ed6.css",
-    "static/js/main.26eab1d3.js"
+    "static/css/main.61cf1b94.css",
+    "static/js/main.6e7a3372.js"
   ]
 }
